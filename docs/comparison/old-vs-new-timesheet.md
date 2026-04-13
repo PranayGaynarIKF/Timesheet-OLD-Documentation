@@ -11,8 +11,8 @@ This document provides a comprehensive mapping of features between the **Legacy 
 | :--- | :--- | :---: | :---: | :--- |
 | **Dashboard** | Upcoming & Past Holidays | ✔ | ✔ | Ported |
 | | Real-time Leave Balances | ✔ | ✔ | Ported |
-| **Team Board** | Employee Hierarchy (Tree View) | <span style="color:red">✖</span> | ✔ | **NEW FEATURE** |
-| | Employee Hierarchy (Chart View) | <span style="color:red">✖</span> | ✔ | **NEW FEATURE** |
+| **Team Board** | Employee Hierarchy (Tree View) | ❌ | ✔ | **NEW FEATURE** |
+| | Employee Hierarchy (Chart View) | ❌ | ✔ | **NEW FEATURE** |
 | **Profile** | View Employee Information | ✔ | ✔ | Ported |
 | | Change Timesheet Password | ✔ | ✔ | Ported |
 | **Attendance** | Attendance Summary List | ✔ | ✔ | Ported |
@@ -36,21 +36,21 @@ This document provides a comprehensive mapping of features between the **Legacy 
 | **Project Mgt** | Project List & History | ✔ | ✔ | Ported |
 | | Dept-wise Summary | ✔ | ✔ | Ported |
 | | Employee-wise Summary | ✔ | ✔ | Ported |
-| | Project Information CRUD | ✔ | <span style="color:red">✖</span> | **Missing** |
-| **Employee Mgt** | Employee Add / Modify | ✔ | <span style="color:red">✖</span> | **Missing** |
-| | Employee List & Auth | ✔ | <span style="color:red">✖</span> | **Missing** |
+| | Project Information CRUD | ✔ | ❌ | **Missing** |
+| **Employee Mgt** | Employee Add / Modify | ✔ | ❌ | **Missing** |
+| | Employee List & Auth | ✔ | ❌ | **Missing** |
 | **Task Mgt** | Task Master (Add/List) | ✔ | ✔ | Ported |
-| | Task Assignment to Employee | ✔ | <span style="color:red">✖</span> | **Missing** |
+| | Task Assignment to Employee | ✔ | ❌ | **Missing** |
 | **Financials** | Attendance Audit (Present/Absent) | ✔ | ✔ | Ported |
-| **MIS Reports** | Management Dashboards (Logo/DCR) | ✔ | <span style="color:red">✖</span> | **Missing** |
-| | Excel Reports (Performance/Operational)| ✔ | <span style="color:red">✖</span> | **Missing** |
+| **MIS Reports** | Management Dashboards (Logo/DCR) | ✔ | ❌ | **Missing** |
+| | Excel Reports (Performance/Operational)| ✔ | ❌ | **Missing** |
 | **LMS Admin** | Global Leave Balance Mgmt | ✔ | ✔ | Ported |
-| | Leave Approval Flow | ✔ | <span style="color:red">✖</span> | **Missing** |
+| | Leave Approval Flow | ✔ | ❌ | **Missing** |
 | **Masters** | Holiday Configuration | ✔ | ✔ | Ported |
 | | Client Master (Add/List) | ✔ | ✔ | Ported |
-| | Industry Types & Link Categories | ✔ | <span style="color:red">✖</span> | **Missing** |
-| | Project Document Library | ✔ | <span style="color:red">✖</span> | **Missing** |
-| **Learning** | Learning Module (Add/List/Cat) | ✔ | <span style="color:red">✖</span> | **Missing** |
+| | Industry Types & Link Categories | ✔ | ❌ | **Missing** |
+| | Project Document Library | ✔ | ❌ | **Missing** |
+| **Learning** | Learning Module (Add/List/Cat) | ✔ | ❌ | **Missing** |
 
 ---
 
