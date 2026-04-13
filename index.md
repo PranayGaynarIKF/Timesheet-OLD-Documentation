@@ -35,6 +35,10 @@ Developers and stakeholders should use this repository as a technical manual:
 - **Task-Specific Research:** Use the **Workflows** links above to understand specific code execution paths.
 - **Technical Reference:** Consult the **Technical Reference** section for database schemas and design decisions.
 
+## 🚀 Migration & Comparison
+- [**Legacy vs. Core Comparison**](./docs/comparison/old-vs-new-timesheet.md)
+    *Detailed feature audit and gap analysis between Timesheet-OLD and Timesheet Core.*
+
 ## Documentation Standards
 To maintain a high standard of professional documentation, all files follow these rules:
 - **Naming Conventions:** Use lowercase with hyphens for all file and folder names (e.g., `sample-workflow`).
