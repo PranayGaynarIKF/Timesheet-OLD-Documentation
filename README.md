@@ -33,11 +33,22 @@ To begin exploring the documentation, follow these steps:
 3. Explore the **Workflows** directory for detailed step-by-step business logic and technical code-paths.
 
 ## Documentation Structure
-The repository is organized into logical directories for easy discovery:
-- **`common/`**: Contains core system settings, `Web.config` analysis, and global variables.
-- **`workflows/`**: Organized by module (e.g., LMS, Referrals, MIS) containing functional and database overviews.
-- **`index.md`**: The main table of contents and technical entry point.
-- **`README.md`**: High-level project introduction and repository guide.
+The documentation is organized into logical directories for easy discovery:
+
+```text
+Timesheet-OLD-Documentation/
+├── README.md (You are here)
+├── index.md (Main navigation hub)
+├── common/
+│   └── config.md (Centralized system configuration)
+└── workflows/
+    └── [workflow-name]/
+        ├── overview.md (Workflow steps)
+        ├── technical-implementation.md (APIs and code)
+        ├── database-operations.md (SQL and schemas)
+        └── decisions.md (Stakeholder decisions)
+```
+
 
 ## Key Features
 - **Modular Documentation:** Each business unit is documented independently for better maintenance.

@@ -1,42 +1,45 @@
-# Documentation Index
+# Documentation - Master Index
 
-Welcome to the **Timesheet24** documentation hub. This index provides structured navigation through the various technical and functional components of the system.
+This is the central navigation hub for all technical and functional documentation relating to the **Timesheet24** project. This dashboard is designed to provide quick access to system overviews, detailed workflows, and architectural references.
 
-## 🏗️ Core Infrastructure
-*   [**System Configuration**](common/config.md)  
-    *Web.config, app settings, and database connections.*
+## Overview
+The **Timesheet24** system is a comprehensive HRMS and internal tracking solution used for managing employee attendance, leave applications, project time allocation, and performance reporting. These documents exist to preserve institutional knowledge, simplify onboarding, and provide a clear technical roadmap for system maintenance.
 
-## 🔄 Core Business Workflows
-*   [**Employee Daily Lifecycle**](workflows/sample-workflow/overview.md)  
-    *Login, Punch-In, and Timesheet logging.*
-*   [**Leave Management (LMS)**](workflows/sample-workflow/overview.md)  
-    *Applying for leave, balance tracking, and approvals.*
-*   [**Project & Client Operations**](workflows/project-management/overview.md)  
-    *Managing clients and logging project project hours.*
+## Quick Navigation - Workflows
+Detailed step-by-step guides for the system's most critical business processes:
+- [**Authentication & Security Flow**](./workflows/system-admin/overview.md)
+- [**Leave Management (LMS) Flow**](./workflows/sample-workflow/overview.md)
+- [**Timesheet & Punching Flow**](./workflows/sample-workflow/overview.md)
+- [**Project & Client Management**](./workflows/project-management/overview.md)
+- [**Referral & Recruitment Flow**](./workflows/referral-system/overview.md)
 
-## 👥 Employee Engagement
-*   [**Referral System**](workflows/referral-system/overview.md)  
-    *Employee referral portal and tracking.*
-*   [**Birthdays & New Joinees**](workflows/employee-engagement/overview.md)  
-    *Internal celebrations and employee previews.*
+## System Architecture
+High-level overview of the technologies and environments powering the application.
 
-## 📊 Reporting & Administration
-*   [**MIS & Analytics**](workflows/mis-reporting/overview.md)  
-    *Generating reports and Crystal Reports logic.*
-*   [**System Administration**](workflows/system-admin/overview.md)  
-    *Password management, IP restrictions, and Admin logic.*
+### Technology Stack
+- **Frontend/UI:** ASP.NET WebForms (Legacy .NET Framework 4.x)
+- **Backend Logic:** C# (N-Tier Architecture)
+- **Database:** SQL Server (Transact-SQL / Stored Procedures)
+- **Reporting:** Crystal Reports (.rpt Engine)
 
-## 🛠️ Resources & Utilities
-*   [**Resource Library**](workflows/resource-management/overview.md)  
-    *Internal links, Holiday calendars, and Automated Mailers.*
+### Server Environment
+- **Web Server:** Internal IIS (Internet Information Services)
+- **Hosting:** Local Data Center / On-Premise Servers
+- **Database Server:** Dedicated SQL Server Instance
 
----
-## 🏁 Technical Reference
-*   [**Architecture & Flow**](workflows/sample-workflow/technical-implementation.md)
-*   [**Database & Tables**](workflows/sample-workflow/database-operations.md)
-*   [**Design Decisions**](workflows/sample-workflow/decisions.md)
+## How to Use This Documentation
+Developers and stakeholders should use this repository as a technical manual:
+- **Baseline Understanding:** Start with the [**Project README**](./README.md) for a high-level site map.
+- **Task-Specific Research:** Use the **Workflows** links above to understand specific code execution paths.
+- **Technical Reference:** Consult the **Technical Reference** section for database schemas and design decisions.
 
+## Documentation Standards
+To maintain a high standard of professional documentation, all files follow these rules:
+- **Naming Conventions:** Use lowercase with hyphens for all file and folder names (e.g., `sample-workflow`).
+- **Folder Structure:** Follow the hierarchical tree defined in the README (Common/Workflows).
+- **File Consistency:** Every workflow must contain an `overview.md` and a `technical-implementation.md`.
 
----
-> [!NOTE]
-> This repository is intended to be the central source of truth for the legacy codebase logic. Ensure all paths follow the standard documentation structure.
+## Maintenance
+- **Maintenance Owner:** Central Development Team / Project Leads.
+- **Update Frequency:** Documentation must be updated concurrently with any significant code changes or new module deployments.
+- **Version Control:** All documentation is managed via Git; changes must be submitted via Pull Request for review.
