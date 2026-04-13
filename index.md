@@ -8,10 +8,12 @@ The **Timesheet24** system is a comprehensive HRMS and internal tracking solutio
 ## Quick Navigation - Workflows
 Detailed step-by-step guides for the system's most critical business processes:
 - [**Authentication & Security Flow**](./workflows/system-admin/overview.md)
-- [**Leave Management (LMS) Flow**](./workflows/sample-workflow/overview.md)
-- [**Timesheet & Punching Flow**](./workflows/sample-workflow/overview.md)
+- [**Leave Management (LMS) Flow**](./workflows/leave-management/overview.md)
+- [**Timesheet & Daily Lifecycle**](./workflows/timesheet-lifecycle/overview.md)
 - [**Project & Client Management**](./workflows/project-management/overview.md)
 - [**Referral & Recruitment Flow**](./workflows/referral-system/overview.md)
+
+
 
 ## System Architecture
 High-level overview of the technologies and environments powering the application.
